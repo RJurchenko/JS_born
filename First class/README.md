@@ -13,5 +13,7 @@ Source code is the fundamental component of a computer program that is created b
   
 ## How are symbols stored?  
 Symbols are stored in bits & bytes. The bit is the most basic unit of information in computing and digital communications. The name is a portmanteau of binary digit.[1] The bit represents a logical state with one of two possible values. These values are most commonly represented as either "1" or "0", but other representations such as true/false, yes/no, +/−, or on/off are also commonly used. The byte is a unit of digital information that most commonly consists of **eight bits**.  
+**ASCII** abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters.  
+The Internet Assigned Numbers Authority (IANA) prefers the name US-ASCII for this character encoding
 ![ASCII table](https://www.ecowin.org/aulas/resources/tables/asciitable.jpg)
 0

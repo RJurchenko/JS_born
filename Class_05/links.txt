@@ -1,0 +1,15 @@
+https://www.w3schools.com/html/html_forms.asp
+
+https://www.w3schools.com/html/html_form_elements.asp
+
+https://material.io/design/iconography/system-icons.html
+
+https://www.w3schools.com/tags/att_input_pattern.asp
+
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
+
+https://www.w3schools.com/tags/att_input_pattern.asp
+
+https://en.m.wikiversity.org/wiki/Web_Design/HTML_Challenges
+
+https://insomnia.rest/

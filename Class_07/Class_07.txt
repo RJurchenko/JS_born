@@ -1,0 +1,10 @@
+https://javascript.info/logical-operators
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_external
+
+https://stackoverflow.com/questions/2803145/is-there-0b-or-something-similar-to-represent-a-binary-number-in-javascript
+
+https://stackoverflow.com/questions/10879244/how-to-get-the-ascii-value-in-javascript-for-the-characters
+
+
+

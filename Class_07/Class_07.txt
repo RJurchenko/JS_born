@@ -6,5 +6,8 @@ https://stackoverflow.com/questions/2803145/is-there-0b-or-something-similar-to-
 
 https://stackoverflow.com/questions/10879244/how-to-get-the-ascii-value-in-javascript-for-the-characters
 
+https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+
+
 
 

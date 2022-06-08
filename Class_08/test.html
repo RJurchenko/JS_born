@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // How to convert a decimal number to binary
+        // Javascript program
+        
+        // function for conversion
+        function decimaltobinary(x)
+        {
+          let binary = new Array(32);
+        
+          let i = 0;
+          while (x > 0) {
+            binary[i] = x % 2;
+            x = Math.floor(x / 2);
+            i++;
+          }
+        
+          for (let j = i - 1; j >= 0; j--)
+            document.write(binary[j]);
+        }
+        
+        // driver
+          let x = 17;
+          decimaltobinary(x);
+          
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
+https://stackoverflow.com/questions/6888506/redeclaring-a-javascript-variable
+
+https://www.w3schools.com/js/js_reserved.asp
+
+https://progkids.com/blog/what-is-a-variable
+
+

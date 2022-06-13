@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zemess radiuss</title>
+</head>
+<body>
+    
+    <script src="./script.js"></script>
+
+<label for="r"><p>Jā zemes radiuss ir <input type="number" id = "radiuss" onClick="Equator()"> km</p></label>
+
+<script>
+ function Equator() {
+    r = document.getElementById("radiuss").value;
+     return r * 2* 3,14;
+   
+   document.getElementById("result").innerHTML = "radiuss"*2*Math.PI;
+ }
+</script>
+
+<p>Tad ekvarota aptuvenais garums ir</p>
+
+
+
+</body>
+</html>

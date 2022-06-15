@@ -12,3 +12,5 @@ Ja Jūs ieguldīsiet to mūsu bankā uz diviem gadiem, tad pēc gada kā % Jūs 
 Ja Jūs ieguldīsiet to mūsu bankā uz trīm gadiem, tad pēc gada kā % Jūs saņemsiet ... EUR
 Ja Jūs ieguldīsiet to mūsu bankā uz četriem gadiem, tad pēc gada kā % Jūs saņemsiet ... EUR
 Ja Jūs ieguldīsiet to mūsu bankā uz pieciem gadiem, tad pēc gada kā % Jūs saņemsiet ... EUR
+
+https://www.w3schools.com/js/js_htmldom_elements.asp

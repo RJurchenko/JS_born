@@ -1,0 +1,31 @@
+<script>
+
+    function rekina(){
+    
+    
+     
+    var procenti;
+    var rezultats;
+    var klients=document.getElementById('klientsInput').value; 
+    var summa=document.getElementById('summaInput').value; 
+    var pazinojums='Nav ievadīti visi dati';
+  
+    document.getElementById('rezultatsOut').innerHTML='Cien. '+klients+'<br>Mēs, banka, redzam, ka Jums kontā ir '+summa+' Eur<br>'; 
+            
+    for (let i = 1; i < 6; i++) {
+procenti=i/100; 
+rezultats=(summa*procenti)/100;
+
+document.getElementById('rezultatsOut').innerHTML=document.getElementById('rezultatsOut').innerHTML+'Ja jūs iegulīsiest to mūsu bankā uz '+i+' gadu, , tad pec gada Jūs saņemsiet '+rezultats+' EUR.<br>';
+}
+
+
+    }
+
+</script>
+<span>Vārds uzvārds:</span><br>
+<input type="text" id="klientsInput"><br>
+<input type="text" id="summaInput" onkeyup="rekina()">
+
+<p id="rezultatsOut"></p>
+        

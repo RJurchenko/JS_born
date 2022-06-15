@@ -1,0 +1,32 @@
+const cars = [["BMW", "AUDI"],[["X3", "X5"],["Q1", "Q2"]];
+VM3300:1 Uncaught SyntaxError: Unexpected token ';'
+const cars = [["BMW", "AUDI"],[["X3", "X5"],["Q1", "Q2"]]];
+undefined
+cars
+(2) [Array(2), Array(2)]
+cars[1];
+(2) [Array(2), Array(2)]
+cars[1][0];
+(2) ['X3', 'X5']
+i = 0;
+0
+cars[0][i] + " markas mašīnas ir: " + cars[1][i];
+'BMW markas mašīnas ir: X3,X5'
+i=1;
+1
+cars[0][i] + " markas mašīnas ir: " + cars[1][i];
+'AUDI markas mašīnas ir: Q1,Q2'
+cars.length;
+2
+typeof(cars[0])
+'object'
+cars[0].lenght;
+undefined
+cars[0]
+(2) ['BMW', 'AUDI']
+cars[0].lenght;
+undefined
+cars[1].lenght
+undefined
+cars
+(2) [Array(2), Array(2)]

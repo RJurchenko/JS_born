@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+var c=99,
+   d=55,
+   e=2;
+
+if (c>d && c>e)
+   {
+    console.log("Vislielākais ir c=" +c )
+    if (d>e)
+        {
+          console.log("Nākamais ir d=" +d )
+          console.log("Mazākais ir e=" +e )
+        }
+        else
+        {
+            console.log("Nākamais ir e=" +e )
+            console.log("Mazākais ir d=" +d )
+        }
+    
+   }
+else if (d>e && d>e)
+   {
+    console.log("Vislielākais ir d=" +d )
+    if (c>e)
+        {
+          console.log("Nākamais ir c=" +c )
+          console.log("Mazākais ir e=" +e )
+        }
+        else 
+        {
+          console.log("Nākamais ir e=" +e )
+          console.log("Mazākais ir c=" +c )
+        }
+   }
+   else
+   {
+    console.log("Vislielākais ir e=" +e )
+    if (d>c)
+        {
+          console.log("Nākamais ir d=" +d )
+          console.log("Mazākais ir c=" +c )
+        }
+        else
+        { 
+          console.log("Nākamais ir c=" +c )
+          console.log("Mazākais ir d=" +d )
+        }
+   }
+[c,d,e] = [e,d,c]
+console.log (`${c} ${d} ${e}`)
+
+</script>
+
+</body>
+</html>

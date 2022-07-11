@@ -1,0 +1,3 @@
+Viens interesantākais piemērs ar funckijam
+
+https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/

@@ -1,0 +1,15 @@
+https://github.com/tatusmatrix/Dialogs_AB/blob/main/Class_14/js/script.js
+
+https://arcade.makecode.com/courses/csintro3/functions/comments
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_for_of
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_for_of2
+
+https://github.com/tatusmatrix/Dialogs_AB/tree/main/Class_15
+
+https://github.com/tatusmatrix/Dialogs_AB/tree/main/Class_15
+
+Uzdevumi brīvdienām:
+* ievietot šodienas algoritmu funkcijas konstrukcijā
+* uztaisīt sekojošo teksta analīzi - a(5), b(7), c(3), d(2), ...

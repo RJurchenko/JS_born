@@ -1,0 +1,8 @@
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Equality_comparisons_and_sameness
+
+https://betterprogramming.pub/when-to-use-bind-call-and-apply-in-javascript-1ae9d7fa66d5
+
+
+https://www.w3schools.com/js/js_loop_forin.asp
+
+

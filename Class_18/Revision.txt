@@ -1,0 +1,50 @@
+0. JavaScript
+* iekš html (iekš head, body - iekš <script> tagiem)
+* atsevišķā lokālā failā
+* atsevišķā ārējā failā (kaut kur tīklā)
++ scopes - {}
++ JS programmēšanas valodas teikumi parasti beidzās are - ;
+** browser + inspect
+
+1. variables (mainīgie)
+* var, let, const
+* primitīvie datu tipi (Number, String, Boolean, ...)
+* daudzas dažādas matemātiksās, loģiskās, bitu utt. operācijas
+
+2. array (masīvi)
+* viens_vārds [dauzdi indeksēti elementi/vērtības]
+* daudzas dažādas metodes attiecībā uz šo elementu kopu
+** String - simbolu masīvs
+   "static text 1" + variable_value_OR_operation_result + "static text 2"
+   'static text 1" + ${variable_value_OR_operation_result} static text 2
+
+3.1 if (koda izpildes zarošana)
++ else
++ izšķiršanas par vēlāmo turpmāk izmantojamo vērtību vai darāmo darbību ar konstrukciju
+(nosacijums) ? true_darbības: false_darbības;
+
+3.2 switch (-"- ja ir daudz plašākā nākamā zara izvēle)
++ break;
++ default
+
+4. loops (cikli)
++ for ( ; ; )
++ while()
++ do ... while
+++ for (of)
+
+5. functions
++ function function_name(function_arguments){function_body} - definition with statement
++ const[/var/let] function_name = function (function_arguments){function_body} - definition with expression
+++				= function function_entire_for_recursion(function_arguments)
++++ functions defined by expression can't be hoisted - nevar tik izmantotas pir
+++++ iebuvētas funkcijas
+
+6. objects
++ properties (īpašības) - object_name.object_property_name
+			- object_name["object_property name"]
++ methods (funkcijas)
+++ const object_name = {};
+   const object_name = new Object();
+++ object_property_name: object_property_value
++++ pārlūku iebuvēti objekti (console)

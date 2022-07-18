@@ -11,3 +11,4 @@ function searchGrade (grades,search){
 }
 
 searchGrade(grades,search);
+

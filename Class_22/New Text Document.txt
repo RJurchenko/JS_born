@@ -1,0 +1,4 @@
+https://www.javascripttutorial.net/javascript-bom/javascript-get-query-string/
+
+https://www.w3schools.com/jsref/met_win_setinterval.asp
+

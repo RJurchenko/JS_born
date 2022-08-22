@@ -1,0 +1,44 @@
+https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/
+
+https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+counter = 1;
+var x = setInterval(my_function, 1000);
+
+document.getElementById("demo1").innerHTML = `Intervāla Id ${x}`;
+
+function my_function() {
+document.getElementById("demo2").innerHTML = counter;
+counter++;
+if (counter > 5){clearInterval(x);}
+}
+</script>
+
+</body>
+</html>
+
+https://github.com/ArtursRemess/JavaScript/tree/main/Class_24_20220822
+
+https://developer.mozilla.org/en-US/docs/Web/API/Screen
+
+https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript
+
+https://developer.mozilla.org/en-US/docs/Web/API/Screen

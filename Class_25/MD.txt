@@ -1,0 +1,9 @@
+https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javascript/
+
+https://www.javascripttutorial.net/javascript-dom/
+
+https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction
+
+https://stackoverflow.com/questions/7115022/how-do-i-enumerate-all-of-the-html-ids-in-a-document-with-javascript
+
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementbyid/

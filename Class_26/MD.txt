@@ -1,0 +1,28 @@
+https://www.javascripttutorial.net/javascript-dom/
+
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbytagname/
+
+https://stackoverflow.com/questions/15763358/difference-between-htmlcollection-nodelists-and-arrays-of-objects
+
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbyclassname/
+
+https://www.javascripttutorial.net/javascript-dom/javascript-queryselector/
+
+5) Attribute selector
+To select all elements that have a given attribute, you use one of the following attribute selector syntaxes:
+
+[attribute]
+[attribute=value]
+[attribute~=value]
+[attribute|=value]
+[attribute^=value]
+[attribute$=value]
+[attribute*$*=value]
+Code language: JSON / JSON with Comments (json)
+The following example finds the first element with the attribute [autoplay] with any value:
+
+let autoplay = document.querySelector('[autoplay]');
+Code language: JavaScript (javascript)
+And the following example finds all elements that have [autoplay] attribute with any value:
+
+let autoplays = document.querySelectorAll('[autoplay]');

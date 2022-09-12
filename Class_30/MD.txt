@@ -1,0 +1,9 @@
+https://www.javascripttutorial.net/web-apis/javascript-cookies/
+
+
+
+meginat palabot uzlabot kodu atbildoši piemērām
+
+JavaScript Cookie class
+The following Cookie class sets, gets, and removes a cookie:
+

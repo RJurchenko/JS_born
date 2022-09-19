@@ -1,0 +1,24 @@
+
+variables: form; search; result; more; apiURL; res; data; lyrics; searchTerm; clickedEL; artist; songTitle
+
+6: https://api.lyrics.ovh; - cloud serviss
+
+10: const res = await fetch(`${apiURL}/suggest/${term}`); - izpilda pieprasījumu
+
+11: const data = await res.json(); - saņem datus no json
+
+17: function showData(data):
+
+1. Attēlo dziesmu un izpildītāju sarakstu "UL"
+2. Attēlo pogu, lai dabūtu dziesmu vārdus
+3. Jārada vairāk datus, bet nestrādā
+
+31: if (data.prev || data.next) - nestrādājošs kods, kura funckija ir turpināt meklēt
+
+32: more - tukšais kods
+
+57: 
+
+71: form.addEventListener - rāda logu, kas prasa ieviest nosaukumu vai rāda rezultātu, jā bija ieviests nosaukums
+
+Darbojoša daļa - līdz 

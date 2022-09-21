@@ -37,8 +37,8 @@ function save_cv(){
   
   
   
-//  console.log(document.getElementById('language').value);
-//  console.log('language_level: ' + document.querySelector('input[name="language_level"]:checked').value);
+console.log(document.getElementById('language').value);
+console.log('language_level: ' + document.querySelector('input[name="language_level"]:checked').value);
 }
 
 function add_education(){
@@ -70,5 +70,5 @@ function add_language(){
 }
 
   
-  // console.log(div_cv);
-  // console.log(Object.values(div_cv));
+console.log(div_cv);
+console.log(Object.values(div_cv));

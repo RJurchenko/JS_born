@@ -1,6 +1,6 @@
 {
     "devDependencies": {
-        "@types/jest": "^27.4.0",
+        "@types/jest": "^27.5.2",
         "jest": "^27.5.1"
     },
     "scripts": {
@@ -8,4 +8,3 @@
         "test1": "echo \"Error: no test specified\" && exit 1"
     }
 }
-

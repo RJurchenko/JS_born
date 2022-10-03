@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Piedzīvojumu parks</title>
+</head>
+
+<body class="home-block ">
+    
+<div class="home-bg notPrint" style="display: none;">
+    <div class="homepage-table">
+        <div class="close"></div>
+        <h1>Piedzīvojumu PARKS</h1>
+        <div id="izveletiesAtputas">    
+            <p>Izraujieties no ikdienas rutīnas un apmeklējiet Latvijas skaistākās vietas kopā ar Piedzīvojumu parku</p>
+            <p>Kādu atpūtu Tu izvēlies?</p>  
+            <table class="izveletiesAtputu">
+                <tr>
+                    <td colspan="2"> <input type="radio" id="aktivi" name="atputa" value="aktīvu" >
+                        <label for="aktivi">aktīvu</label>
+                    </td>
+                    <td colspan="2"> <input type="radio" id="pasivi" name="atputa" value="pasīvu">
+                        <label for="pasivi">pasīvu</label>
+                    </td>    
+                </tr>
+            </table>
+            <hr />
+            <p>Vai atpūtīsies :</p>  
+            <table class="izveletiesAtputu">               
+                <tr>
+                    <td><input type="radio" id="viens" name="cik_atputisies" value="viens">
+                        <label for="viens">viens</label></td>                
+                    <td><input type="radio" id="divata" name="cik_atputisies" value="divatā">
+                        <label for="divata">divatā</label></td>
+                    <td><input type="radio" id="gimeni" name="cik_atputisies" value="ar ģimeni">
+                        <label for="gimeni">ar ģimeni</label></td>
+                    <td><input type="radio" id="draugi" name="cik_atputisies" value="ar draugiem">
+                        <label for="draugi">ar draugiem</label></td>        
+                </tr>
+            </table>
+            <button onclick="pirmapoga()" id="pirmapoga">ATRAST SAVU PIEDZĪVOJUMU</button>
+        </div> 
+        <div id="izveletiesPilsetas" style="display: none;">  
+            <div id="teikums"></div>
+            <table class="izveletiesPilsetu">
+                <tr> 
+                <td><input type="radio" id="riga" name="pilseta" value="riga">
+                    <label for="riga"> 
+                    <img class="homepage-city" src="image/riga0.jpg"><br>Rīga</label></td> 
+                <td><input type="radio" id="pieriga" name="pilseta" value="pieriga">
+                    <label for="pieriga">
+                    <img class="homepage-city" src="image/pieriga0.jpg"><br>Pierīga</label></td> 
+                </tr>
+            </table>
+            <div class="otras-pogas">
+                <button id="atpakalPirmoLogu">Atpakaļ</button>
+                <button id="aizietPirmoLogu" onclick="aizietPirmoLogu()" >Turpināt</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header homepage">
+    <div class="container">
+        <div class="logo"><a href="index.html">piedzīvojumu parks</a></div>
+        <div class="logoDescription">Tu izvēlējies atpūsties<span id="kaAtpusties"></span><span id="kurAtpusties"></span>. <button class="nomainit">mainīt</span></div>
+    </div>
+</div>
+
+    
+<div class="slideshow-container" id="homepageSlider">
+    
+    <div class="mySlides fade">
+      <img src="image/index/r.jpg" alt="Rīga">
+      <div class="slider-text">
+          <div class="container">
+            <div class="numbertext">Rīga</div>
+            <div class="text">Daugavas labajā krastā gar upi no Vecrīgas līdz pat Ķengaragam stiepjas promenāde. Lieliska vieta, kur baudīt ūdens tuvumu un doties pastaigās.</div>
+            <div class="link"><a href="riga.html" title="Rīga">Spēlēt</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="image/index/p.jpg" alt="pieriga">      
+        <div class="slider-text">
+            <div class="container">
+                <div class="numbertext">pierīga</div>
+                <div class="text">Pierīga ir teritorija, kas atrodas tās galvaspilsētas Rīgas tiešā tuvumā un ir ar to ģeogrāfiski un vēsturiski saistīta.</div>
+                <div class="link"><a href="pieriga.html" title="pieriga">Spēlēt</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    <div class="dots">
+      <span class="dot dot1" onclick="currentSlide(1)">Rīga</span> 
+      <span class="dot dot2" onclick="currentSlide(2)">Pierīga</span> 
+    </div>
+    
+    </div>
+    
+    <div class="content">
+        <div id="apmeklet1" class="apmeklet">
+            <div class="container">
+                <h2>Kas jāapmeklē Rīgā</h2>                
+                <div id="objektiRiga"></div>                
+            </div>
+        </div>
+        <div id="apmeklet2" class="apmeklet">
+            <div class="container">
+                <h2>Kas jāapmeklē Pierīgā</h2>
+                <div id="objektiPieriga"></div> 
+            </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
